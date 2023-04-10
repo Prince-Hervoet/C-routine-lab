@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{99b4c7d6-60d5-4982-b1da-10406748371e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="headers">
+      <UniqueIdentifier>{bdb8eae9-d64b-42e2-9947-1ed1d08667de}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="scheduler.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="simple_queue.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="lms_routine.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="min_heap.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="scheduler.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="lms_routine.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="simple_queue.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="min_heap.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
